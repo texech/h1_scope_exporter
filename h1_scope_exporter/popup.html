@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Scope Exporter</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>Scope Exporter</h1>
+    <p class="subtitle">Exports Domain / iOS / Android / GitHub assets to TXT files.</p>
+
+    <div class="controls">
+      <button id="exportBtn" class="btn">Export Assets</button>
+    </div>
+
+    <div class="status" id="status" aria-live="polite">
+      <div id="spinner" class="spinner hidden"></div>
+      <div id="message">Ready</div>
+    </div>
+
+    <small class="note">Open the HackerOne scope page, then click Export.</small>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
